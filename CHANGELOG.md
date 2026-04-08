@@ -67,11 +67,11 @@
 |---|---|---|---|
 | Analytic Philosophy | constitution.md | soul.md | Complete |
 | Deontological | constitution.md | soul.md | Complete |
-| Utilitarian | — | — | Not started |
-| Virtue Ethics | — | — | Not started |
-| Pragmatist | — | — | Not started |
-| Stoic | — | — | Not started |
-| Dialectical | — | — | Not started |
+| Utilitarian | constitution.md | soul.md | Complete |
+| Virtue Ethics | constitution.md | soul.md | Complete |
+| Pragmatist | constitution.md | soul.md | Complete |
+| Stoic | constitution.md | soul.md | Complete |
+| Dialectical | constitution.md | soul.md | Complete |
 | Philosophy of Language | — | — | Planned (Phase 3) |
 
 ---
@@ -86,13 +86,13 @@
 
 ## Next Steps
 
-1. Write remaining 5 framework constitutions and soul files (Utilitarian, Virtue, Pragmatist, Stoic, Dialectical)
-2. Write `router/classifier.md` — the meta-router prompt that classifies a task and selects a framework
-3. Write `router/ai_judge_prompt.md` — the structured prompt used for AI-as-judge scoring
-4. Write Phase 2 test prompts in `tasks/categories.md`
-5. Run first experiment: Phase 1 logical fallacy batch — baseline + Analytic + mismatched (Virtue Ethics)
-6. Score results; record in experiment results table above
-7. Validate inter-rater reliability (human vs. AI-judge) before proceeding to Phase 2
+1. Run classifier calibration: send all 14 Phase 1 prompts through `router/classifier.md`; confirm expected outputs; log results in classifier calibration table
+2. Run first experiment: Phase 1 logical fallacy batch — baseline + Analytic (matched) + Virtue Ethics (mismatched control)
+3. Score results with AI judge; then human rater scores independently
+4. Calculate inter-rater reliability (human vs. AI-judge); document kappa in CHANGELOG
+5. Record results in experiment results table
+6. Owner to supply concrete scenario for P2-05 (Reparative Justice prompt)
+7. After Phase 1 complete: write Phase 2 prompts and run Phase 2
 
 ---
 
@@ -117,5 +117,9 @@
 
 ### Session 002 — 2026-04-08
 **Goal:** Pre-registration, rubric, task prompts, first two framework definitions  
-**Outcome:** Completed. `eval/rubric.md` written with 5 pre-registered hypotheses. 14 Phase 1 prompts written. Analytic and Deontological frameworks complete.  
-**Next session should start with:** Remaining 5 framework definitions, then meta-router and AI-judge prompts.
+**Outcome:** Completed. `eval/rubric.md` written with 5 pre-registered hypotheses. 14 Phase 1 prompts written. Analytic and Deontological frameworks complete.
+
+### Session 003 — 2026-04-08
+**Goal:** Remaining framework files, meta-router, AI-judge scoring prompt  
+**Outcome:** Completed. All 7 frameworks now have constitution.md and soul.md. `router/classifier.md` and `router/ai_judge_prompt.md` written. Phase 2 prompts P2-01 through P2-04 added; P2-05 is a placeholder pending owner scenario.  
+**Next session should start with:** Classifier calibration run (Step 1 of Next Steps), then first experiment batch.
