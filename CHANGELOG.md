@@ -103,7 +103,7 @@
 | 2026-04-08 | Add Analytic Philosophy as 7th framework | Logical/formal tasks need a framework explicitly built around argument structure; existing 6 were too ethics-focused |
 | 2026-04-08 | Plan Philosophy of Language as 8th framework (Phase 3) | Owner's core interest: how word choice ("candid" vs "honest") affects model outputs — grounded in Grice, Austin, Wittgenstein |
 | 2026-04-08 | Start with logical fallacy identification (Phase 1) | Objective ground truth available; no rubric subjectivity; builds credibility before moving to normative tasks |
-| 2026-04-08 | Use Qwen 3.5 9B via LM Studio as primary model | Best available local model; capable enough for nuanced philosophical reasoning |
+| 2026-04-08 | Switch primary model to Gemma 4 4B (google/gemma-4-e4b) | Qwen 3.5 9B requires 8.14 GB and is blocked by LM Studio's memory guardrail on this machine; Gemma 4B loads successfully and passed 14/14 classifier calibration at high confidence |
 | 2026-04-08 | Pre-register H1–H5 before any data collection | Distinguishes confirmatory from exploratory findings; required for publishability |
 | 2026-04-08 | Both human + AI-as-judge scoring; human is ground truth | AI judge is fast but biased; human is authoritative; comparison between them is itself a data point |
 
@@ -121,5 +121,9 @@
 
 ### Session 003 — 2026-04-08
 **Goal:** Remaining framework files, meta-router, AI-judge scoring prompt  
-**Outcome:** Completed. All 7 frameworks now have constitution.md and soul.md. `router/classifier.md` and `router/ai_judge_prompt.md` written. Phase 2 prompts P2-01 through P2-04 added; P2-05 is a placeholder pending owner scenario.  
-**Next session should start with:** Classifier calibration run (Step 1 of Next Steps), then first experiment batch.
+**Outcome:** Completed. All 7 frameworks now have constitution.md and soul.md. `router/classifier.md` and `router/ai_judge_prompt.md` written. Phase 2 prompts P2-01 through P2-04 added; P2-05 is a placeholder pending owner scenario.
+
+### Session 004 — 2026-04-08
+**Goal:** Classifier calibration script and first calibration run  
+**Outcome:** Completed. `scripts/calibrate_classifier.py` written; `tasks/phase1_prompts.json` structured data file created. Qwen 3.5 9B blocked (8.14 GB, exceeds system memory guardrail) — switched to Gemma 4 4B. Calibration: **14/14 PASS**, all high confidence. Results saved to `experiments/calibration/2026-04-08_classifier_calibration.json`.  
+**Next session should start with:** Run Phase 1 experiment batch (baseline + analytic + virtue ethics mismatched) using `google/gemma-4-e4b`.

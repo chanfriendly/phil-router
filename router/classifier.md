@@ -65,4 +65,32 @@ Classify the following task:
 
 | Date | Prompt | Expected Framework | Classifier Output | Match? |
 |---|---|---|---|---|
-| — | — | — | — | — |
+| 2026-04-08 | P1-01 (Ad Hominem) | analytic / logical | ERROR / ERROR | NO |
+| 2026-04-08 | P1-02 (Straw Man) | analytic / logical | ERROR / ERROR | NO |
+| 2026-04-08 | P1-03 (False Dilemma) | analytic / logical | ERROR / ERROR | NO |
+| 2026-04-08 | P1-04 (Slippery Slope) | analytic / logical | ERROR / ERROR | NO |
+| 2026-04-08 | P1-05 (Appeal to Authority) | analytic / logical | ERROR / ERROR | NO |
+| 2026-04-08 | P1-06 (Circular Reasoning) | analytic / logical | ERROR / ERROR | NO |
+| 2026-04-08 | P1-07 (Hasty Generalization) | analytic / logical | ERROR / ERROR | NO |
+| 2026-04-08 | P1-08 (Post Hoc) | analytic / logical | ERROR / ERROR | NO |
+| 2026-04-08 | P1-09 (Appeal to Emotion) | analytic / logical | ERROR / ERROR | NO |
+| 2026-04-08 | P1-10 (Red Herring) | analytic / logical | ERROR / ERROR | NO |
+| 2026-04-08 | P1-11 (Tu Quoque) | analytic / logical | ERROR / ERROR | NO |
+| 2026-04-08 | P1-12 (Bandwagon) | analytic / logical | ERROR / ERROR | NO |
+| 2026-04-08 | P1-13 (valid) | analytic / logical | ERROR / ERROR | NO |
+| 2026-04-08 | P1-14 (valid) | analytic / logical | ERROR / ERROR | NO |
+
+| 2026-04-08 | P1-01 (Ad Hominem) | analytic / logical | analytic / logical | YES |
+| 2026-04-08 | P1-02 (Straw Man) | analytic / logical | analytic / logical | YES |
+| 2026-04-08 | P1-03 (False Dilemma) | analytic / logical | analytic / logical | YES |
+| 2026-04-08 | P1-04 (Slippery Slope) | analytic / logical | analytic / logical | YES |
+| 2026-04-08 | P1-05 (Appeal to Authority) | analytic / logical | analytic / logical | YES |
+| 2026-04-08 | P1-06 (Circular Reasoning) | analytic / logical | analytic / logical | YES |
+| 2026-04-08 | P1-07 (Hasty Generalization) | analytic / logical | analytic / logical | YES |
+| 2026-04-08 | P1-08 (Post Hoc) | analytic / logical | analytic / logical | YES |
+| 2026-04-08 | P1-09 (Appeal to Emotion) | analytic / logical | analytic / logical | YES |
+| 2026-04-08 | P1-10 (Red Herring) | analytic / logical | analytic / logical | YES |
+| 2026-04-08 | P1-11 (Tu Quoque) | analytic / logical | analytic / logical | YES |
+| 2026-04-08 | P1-12 (Bandwagon) | analytic / logical | analytic / logical | YES |
+| 2026-04-08 | P1-13 (valid) | analytic / logical | analytic / logical | YES |
+| 2026-04-08 | P1-14 (valid) | analytic / logical | analytic / logical | YES |

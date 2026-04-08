@@ -1,0 +1,205 @@
+{
+  "date": "2026-04-08",
+  "model": "google/gemma-4-e4b",
+  "passed": 14,
+  "failed": 0,
+  "total": 14,
+  "results": [
+    {
+      "id": "P1-01",
+      "fallacy": "Ad Hominem",
+      "has_fallacy": true,
+      "classifier_output": {
+        "framework": "analytic",
+        "secondary": null,
+        "task_category": "logical",
+        "confidence": "high",
+        "rationale": "The task requires analyzing argument structure and identifying specific logical fallacies, which falls directly under the domain of formal logical analysis."
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "P1-02",
+      "fallacy": "Straw Man",
+      "has_fallacy": true,
+      "classifier_output": {
+        "framework": "analytic",
+        "secondary": null,
+        "task_category": "logical",
+        "confidence": "high",
+        "rationale": "The task requires the formal analysis of an argument's structure to identify and explain logical fallacies or validity."
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "P1-03",
+      "fallacy": "False Dilemma",
+      "has_fallacy": true,
+      "classifier_output": {
+        "framework": "analytic",
+        "secondary": null,
+        "task_category": "logical",
+        "confidence": "high",
+        "rationale": "The task requires the identification of logical fallacies and the assessment of formal argument validity, which are core components of analytic reasoning."
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "P1-04",
+      "fallacy": "Slippery Slope",
+      "has_fallacy": true,
+      "classifier_output": {
+        "framework": "analytic",
+        "secondary": null,
+        "task_category": "logical",
+        "confidence": "high",
+        "rationale": "The task requires the identification and explanation of a logical fallacy, which is a core function of analytic reasoning."
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "P1-05",
+      "fallacy": "Appeal to Authority",
+      "has_fallacy": true,
+      "classifier_output": {
+        "framework": "analytic",
+        "secondary": null,
+        "task_category": "logical",
+        "confidence": "high",
+        "rationale": "The task requires the formal analysis of an argument structure to identify and explain a logical fallacy or confirm its validity."
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "P1-06",
+      "fallacy": "Circular Reasoning",
+      "has_fallacy": true,
+      "classifier_output": {
+        "framework": "analytic",
+        "secondary": null,
+        "task_category": "logical",
+        "confidence": "high",
+        "rationale": "The task requires formal logical analysis to identify and explain structural flaws (fallacies) within an argument."
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "P1-07",
+      "fallacy": "Hasty Generalization",
+      "has_fallacy": true,
+      "classifier_output": {
+        "framework": "analytic",
+        "secondary": null,
+        "task_category": "logical",
+        "confidence": "high",
+        "rationale": "The task requires analyzing argument structure to identify and explain a specific logical fallacy, which is the core function of analytic reasoning."
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "P1-08",
+      "fallacy": "Post Hoc",
+      "has_fallacy": true,
+      "classifier_output": {
+        "framework": "analytic",
+        "secondary": null,
+        "task_category": "logical",
+        "confidence": "high",
+        "rationale": "The task requires analyzing argument structure and identifying logical fallacies, which are core components of analytic reasoning."
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "P1-09",
+      "fallacy": "Appeal to Emotion",
+      "has_fallacy": true,
+      "classifier_output": {
+        "framework": "analytic",
+        "secondary": null,
+        "task_category": "logical",
+        "confidence": "high",
+        "rationale": "The task requires analyzing argument structure and identifying logical fallacies, which is the core function of analytic reasoning."
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "P1-10",
+      "fallacy": "Red Herring",
+      "has_fallacy": true,
+      "classifier_output": {
+        "framework": "analytic",
+        "secondary": "dialectical",
+        "task_category": "logical",
+        "confidence": "high",
+        "rationale": "The task requires formal analysis of an argument's structure to identify and explain logical fallacies, which is the core function of analytic reasoning."
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "P1-11",
+      "fallacy": "Tu Quoque",
+      "has_fallacy": true,
+      "classifier_output": {
+        "framework": "analytic",
+        "secondary": null,
+        "task_category": "logical",
+        "confidence": "high",
+        "rationale": "The task requires the formal analysis of an argument to identify and explain potential logical fallacies or structural validity."
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "P1-12",
+      "fallacy": "Bandwagon",
+      "has_fallacy": true,
+      "classifier_output": {
+        "framework": "analytic",
+        "secondary": null,
+        "task_category": "logical",
+        "confidence": "high",
+        "rationale": "The task requires the identification and explanation of logical fallacies and argument validity, which is the core domain of analytic reasoning."
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "P1-13",
+      "fallacy": null,
+      "has_fallacy": false,
+      "classifier_output": {
+        "framework": "analytic",
+        "secondary": null,
+        "task_category": "logical",
+        "confidence": "high",
+        "rationale": "The task requires analyzing argument structure to identify and explain logical fallacies, which is the core function of analytic reasoning."
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "P1-14",
+      "fallacy": null,
+      "has_fallacy": false,
+      "classifier_output": {
+        "framework": "analytic",
+        "secondary": null,
+        "task_category": "logical",
+        "confidence": "high",
+        "rationale": "The task requires analyzing the formal structure of an argument to identify or confirm its validity using principles of logic."
+      },
+      "passed": true,
+      "issues": []
+    }
+  ]
+}

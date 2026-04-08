@@ -1,0 +1,86 @@
+[
+  {
+    "id": "P1-01",
+    "fallacy": "Ad Hominem",
+    "has_fallacy": true,
+    "text": "We shouldn't listen to Dr. Chen's research on climate change — she drives an SUV. Clearly she doesn't even believe what she's saying."
+  },
+  {
+    "id": "P1-02",
+    "fallacy": "Straw Man",
+    "has_fallacy": true,
+    "text": "My opponent says we should reduce military spending. So apparently she wants to leave our country completely defenseless and at the mercy of our enemies."
+  },
+  {
+    "id": "P1-03",
+    "fallacy": "False Dilemma",
+    "has_fallacy": true,
+    "text": "You're either with us on this policy, or you're against the safety of this community. There's no middle ground."
+  },
+  {
+    "id": "P1-04",
+    "fallacy": "Slippery Slope",
+    "has_fallacy": true,
+    "text": "If we allow students to redo one failed exam, next they'll want to redo every assignment, and eventually grades will become meaningless."
+  },
+  {
+    "id": "P1-05",
+    "fallacy": "Appeal to Authority",
+    "has_fallacy": true,
+    "text": "A famous actor said this supplement cured his fatigue. That's good enough for me — I'll start taking it."
+  },
+  {
+    "id": "P1-06",
+    "fallacy": "Circular Reasoning",
+    "has_fallacy": true,
+    "text": "The Bible is true because it says so in the Bible, and the Bible doesn't lie."
+  },
+  {
+    "id": "P1-07",
+    "fallacy": "Hasty Generalization",
+    "has_fallacy": true,
+    "text": "I've met three people from that city and they were all rude. People from there are just unfriendly."
+  },
+  {
+    "id": "P1-08",
+    "fallacy": "Post Hoc",
+    "has_fallacy": true,
+    "text": "I started wearing my lucky bracelet, and my back pain went away the next week. The bracelet must be healing me."
+  },
+  {
+    "id": "P1-09",
+    "fallacy": "Appeal to Emotion",
+    "has_fallacy": true,
+    "text": "Think of the children growing up without clean water. How can you possibly vote against this bill?"
+  },
+  {
+    "id": "P1-10",
+    "fallacy": "Red Herring",
+    "has_fallacy": true,
+    "text": "You're criticizing my business practices, but have you seen how much I donate to charity? I give thousands every year."
+  },
+  {
+    "id": "P1-11",
+    "fallacy": "Tu Quoque",
+    "has_fallacy": true,
+    "text": "You're telling me I shouldn't eat junk food? You had fast food twice last week."
+  },
+  {
+    "id": "P1-12",
+    "fallacy": "Bandwagon",
+    "has_fallacy": true,
+    "text": "Everyone is switching to this new platform. You should too — it's obviously the right move."
+  },
+  {
+    "id": "P1-13",
+    "fallacy": null,
+    "has_fallacy": false,
+    "text": "Regular aerobic exercise has been shown in multiple peer-reviewed studies to reduce the risk of cardiovascular disease. Therefore, incorporating cardio into one's routine is likely to improve heart health."
+  },
+  {
+    "id": "P1-14",
+    "fallacy": null,
+    "has_fallacy": false,
+    "text": "If the bridge was built in 1920 and the average lifespan of that construction type is 80 years, an engineering inspection is overdue."
+  }
+]
