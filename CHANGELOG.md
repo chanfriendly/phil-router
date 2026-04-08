@@ -86,13 +86,13 @@
 
 ## Next Steps
 
-1. Run classifier calibration: send all 14 Phase 1 prompts through `router/classifier.md`; confirm expected outputs; log results in classifier calibration table
-2. Run first experiment: Phase 1 logical fallacy batch — baseline + Analytic (matched) + Virtue Ethics (mismatched control)
-3. Score results with AI judge; then human rater scores independently
-4. Calculate inter-rater reliability (human vs. AI-judge); document kappa in CHANGELOG
-5. Record results in experiment results table
-6. Owner to supply concrete scenario for P2-05 (Reparative Justice prompt)
-7. After Phase 1 complete: write Phase 2 prompts and run Phase 2
+1. **Owner:** supply concrete scenario for P2-05 (Reparative Justice)
+2. **Launch:** `python3 scripts/run_phase1.py` — runs all 42 calls + AI judge automatically
+3. **Score:** open `experiments/YYYY-MM-DD_phase1/eval_human.md` and score responses independently (before looking at AI scores)
+4. Fill in human column in `results.md`; calculate inter-rater kappa; document in CHANGELOG
+5. Record aggregate results in experiment results table above
+6. Assess H1–H3 outcomes; write them into results.md
+7. After Phase 1 complete: run Phase 2
 
 ---
 
@@ -125,5 +125,9 @@
 
 ### Session 004 — 2026-04-08
 **Goal:** Classifier calibration script and first calibration run  
-**Outcome:** Completed. `scripts/calibrate_classifier.py` written; `tasks/phase1_prompts.json` structured data file created. Qwen 3.5 9B blocked (8.14 GB, exceeds system memory guardrail) — switched to Gemma 4 4B. Calibration: **14/14 PASS**, all high confidence. Results saved to `experiments/calibration/2026-04-08_classifier_calibration.json`.  
-**Next session should start with:** Run Phase 1 experiment batch (baseline + analytic + virtue ethics mismatched) using `google/gemma-4-e4b`.
+**Outcome:** Completed. `scripts/calibrate_classifier.py` written; `tasks/phase1_prompts.json` structured data file created. Qwen 3.5 9B blocked (8.14 GB, exceeds system memory guardrail) — switched to Gemma 4 4B. Calibration: **14/14 PASS**, all high confidence. Results saved to `experiments/calibration/2026-04-08_classifier_calibration.json`.
+
+### Session 005 — 2026-04-08
+**Goal:** Phase 1 experiment runner script  
+**Outcome:** Completed. `scripts/run_phase1.py` written — 42 experiment calls (14 prompts × 3 conditions) + 42 AI judge calls, with randomized prompt order (seed=42). Generates config.md, raw outputs/, eval_ai.json, eval_human.md (human scoring template), and results.md. Dry run passed. `tasks/phase2_prompts.json` created with P2-05 as placeholder. **Ready to launch** — pending owner supplying P2-05 scenario.  
+**Next session should start with:** `python3 scripts/run_phase1.py` — then open eval_human.md and score independently before comparing with AI scores.
