@@ -1,0 +1,296 @@
+{
+  "P1-01_baseline": {
+    "detection": 1,
+    "type_accuracy": 1,
+    "explanation_quality": 2,
+    "composite": 90,
+    "notes": "The response correctly identifies the fallacy and provides a thorough explanation of why it is committed."
+  },
+  "P1-02_baseline": {
+    "detection": 1,
+    "type_accuracy": 1,
+    "explanation_quality": 2,
+    "composite": 90,
+    "notes": "The response correctly identifies the fallacy and provides a thorough explanation of how it applies to the given argument."
+  },
+  "P1-03_baseline": {
+    "detection": 1,
+    "type_accuracy": 1,
+    "explanation_quality": 2,
+    "composite": 90,
+    "notes": "The response correctly identified the fallacy and provided a thorough explanation of how it applies to the given argument."
+  },
+  "P1-04_baseline": {
+    "detection": 1,
+    "type_accuracy": 1,
+    "explanation_quality": 2,
+    "composite": 90,
+    "notes": "The response correctly identifies the fallacy and provides a thorough explanation of the logical error."
+  },
+  "P1-05_baseline": {
+    "detection": 1,
+    "type_accuracy": 1,
+    "explanation_quality": 2,
+    "composite": 90,
+    "notes": "The response correctly identifies the fallacy and provides a thorough explanation of why the authority is irrelevant to the claim."
+  },
+  "P1-06_baseline": {
+    "detection": 1,
+    "type_accuracy": 1,
+    "explanation_quality": 2,
+    "composite": 90,
+    "notes": "The response correctly identifies both Circular Reasoning and Begging the Question, providing a thorough explanation of the logical error."
+  },
+  "P1-07_baseline": {
+    "detection": 1,
+    "type_accuracy": 1,
+    "explanation_quality": 2,
+    "composite": 90,
+    "notes": "The response correctly identifies the fallacy and provides a thorough explanation of insufficient evidence."
+  },
+  "P1-08_baseline": {
+    "detection": 1,
+    "type_accuracy": 1,
+    "explanation_quality": 2,
+    "composite": 90,
+    "notes": "The response correctly identified the fallacy and provided an excellent explanation distinguishing correlation from causation."
+  },
+  "P1-09_baseline": {
+    "detection": 1,
+    "type_accuracy": 1,
+    "explanation_quality": 2,
+    "composite": 100,
+    "notes": "The response correctly identifies the fallacy and provides a thorough, accurate explanation of why it is committed."
+  },
+  "P1-10_baseline": {
+    "detection": 1,
+    "type_accuracy": 1,
+    "explanation_quality": 2,
+    "composite": 90,
+    "notes": "The response correctly identifies the fallacy and provides a thorough explanation of why it is irrelevant to the original topic."
+  },
+  "P1-11_baseline": {
+    "detection": 1,
+    "type_accuracy": 1,
+    "explanation_quality": 2,
+    "composite": 90,
+    "notes": "The response correctly identifies the fallacy and provides a thorough explanation of why it applies."
+  },
+  "P1-12_baseline": {
+    "detection": 1,
+    "type_accuracy": 1,
+    "explanation_quality": 2,
+    "composite": 90,
+    "notes": "The response correctly identifies the fallacy and provides a thorough explanation of why popularity does not equate to objective truth."
+  },
+  "P1-13_baseline": {
+    "detection": 1,
+    "type_accuracy": 1,
+    "explanation_quality": 2,
+    "composite": 90,
+    "notes": "The response correctly identifies no fallacy and provides a thorough explanation of its validity."
+  },
+  "P1-14_baseline": {
+    "detection": 1,
+    "type_accuracy": 1,
+    "explanation_quality": 2,
+    "composite": 70,
+    "notes": "The response correctly identifies no fallacy and provides a detailed explanation of the argument's logical structure."
+  },
+  "P1-01_analytic": {
+    "detection": 1,
+    "type_accuracy": 1,
+    "explanation_quality": 2,
+    "composite": 70,
+    "notes": "The response correctly identifies the fallacy and provides a detailed, accurate explanation of the logical error."
+  },
+  "P1-02_analytic": {
+    "detection": 1,
+    "type_accuracy": 0.5,
+    "explanation_quality": 2,
+    "composite": 80,
+    "notes": "The response correctly identifies a fallacy and provides an excellent explanation, though it names Slippery Slope instead of the ground truth Straw Man."
+  },
+  "P1-03_analytic": {
+    "detection": 1,
+    "type_accuracy": 1,
+    "explanation_quality": 2,
+    "composite": 70,
+    "notes": "The response correctly identifies the fallacy and provides a thorough explanation of why it is an error."
+  },
+  "P1-04_analytic": {
+    "detection": 1,
+    "type_accuracy": 1,
+    "explanation_quality": 2,
+    "composite": 70,
+    "notes": "The response correctly identified the fallacy, named it precisely, and provided a thorough explanation of the logical error."
+  },
+  "P1-05_analytic": {
+    "detection": 1,
+    "type_accuracy": 1,
+    "explanation_quality": 2,
+    "composite": 70,
+    "notes": "The response correctly identified the fallacy and provided a thorough explanation of why it applies."
+  },
+  "P1-06_analytic": {
+    "detection": 1,
+    "type_accuracy": 1,
+    "explanation_quality": 2,
+    "composite": 70,
+    "notes": "The response correctly identifies and thoroughly explains Circular Reasoning."
+  },
+  "P1-07_analytic": {
+    "detection": 1,
+    "type_accuracy": 1,
+    "explanation_quality": 2,
+    "composite": 90,
+    "notes": "The response correctly identified the fallacy and provided a thorough explanation of the logical error."
+  },
+  "P1-08_analytic": {
+    "detection": 1,
+    "type_accuracy": 1,
+    "explanation_quality": 2,
+    "composite": 70,
+    "notes": "The response correctly identified the fallacy and provided a comprehensive explanation of temporal vs. causal reasoning."
+  },
+  "P1-09_analytic": {
+    "detection": 1,
+    "type_accuracy": 1,
+    "explanation_quality": 2,
+    "composite": 70,
+    "notes": "The response correctly identified Appeal to Emotion as a secondary mechanism while accurately diagnosing the primary structural fallacy as False Dilemma."
+  },
+  "P1-10_analytic": {
+    "detection": 1,
+    "type_accuracy": 1,
+    "explanation_quality": 2,
+    "composite": 100,
+    "notes": "The response correctly identifies the fallacy and provides a comprehensive, logically sound explanation of why the topics are irrelevant to each other."
+  },
+  "P1-11_analytic": {
+    "detection": 1,
+    "type_accuracy": 1,
+    "explanation_quality": 2,
+    "composite": 70,
+    "notes": "The response correctly identifies the fallacy and provides a thorough explanation of why inconsistency does not negate objective truth."
+  },
+  "P1-12_analytic": {
+    "detection": 1,
+    "type_accuracy": 1,
+    "explanation_quality": 2,
+    "composite": 70,
+    "notes": "The response correctly identified the fallacy and provided a detailed, logically sound explanation."
+  },
+  "P1-13_analytic": {
+    "detection": 0,
+    "type_accuracy": 0.5,
+    "explanation_quality": 2,
+    "composite": 40,
+    "notes": "The model incorrectly detected a fallacy when the ground truth stated none was present."
+  },
+  "P1-14_analytic": {
+    "detection": 1,
+    "type_accuracy": 0.5,
+    "explanation_quality": 2,
+    "composite": 100,
+    "notes": "The response correctly identifies that no formal fallacy exists but points out a structural flaw (insufficiency of premises) which is an acceptable analysis for this task."
+  },
+  "P1-01_virtue": {
+    "detection": 1,
+    "type_accuracy": 1,
+    "explanation_quality": 2,
+    "composite": 70,
+    "notes": "The response correctly identifies the fallacy and provides a thorough explanation of why it applies."
+  },
+  "P1-02_virtue": {
+    "detection": 1,
+    "type_accuracy": 1,
+    "explanation_quality": 2,
+    "composite": 70,
+    "notes": "The response correctly identified the Straw Man fallacy and provided a thorough explanation of how the opponent's actual argument was misrepresented."
+  },
+  "P1-03_virtue": {
+    "detection": 1,
+    "type_accuracy": 1,
+    "explanation_quality": 2,
+    "composite": 70,
+    "notes": "The response correctly identified the fallacy and provided a thorough explanation detailing why the argument commits it."
+  },
+  "P1-04_virtue": {
+    "detection": 1,
+    "type_accuracy": 1,
+    "explanation_quality": 2,
+    "composite": 70,
+    "notes": "The response correctly identified the fallacy and provided a thorough explanation of the logical error."
+  },
+  "P1-05_virtue": {
+    "detection": 1,
+    "type_accuracy": 1,
+    "explanation_quality": 2,
+    "composite": 90,
+    "notes": "The response correctly identifies the fallacy, names it accurately, and provides a detailed, logically sound explanation."
+  },
+  "P1-06_virtue": {
+    "detection": 1,
+    "type_accuracy": 1,
+    "explanation_quality": 2,
+    "composite": 90,
+    "notes": "The response correctly identified the fallacy and provided a thorough explanation of why it constitutes circular reasoning."
+  },
+  "P1-07_virtue": {
+    "detection": 1,
+    "type_accuracy": 1,
+    "explanation_quality": 2,
+    "composite": 90,
+    "notes": "The response correctly identifies the fallacy and provides a thorough explanation."
+  },
+  "P1-08_virtue": {
+    "detection": 1,
+    "type_accuracy": 1,
+    "explanation_quality": 2,
+    "composite": 100,
+    "notes": "The response correctly identified the fallacy and provided a thorough explanation of the logical error."
+  },
+  "P1-09_virtue": {
+    "detection": 1,
+    "type_accuracy": 1,
+    "explanation_quality": 2,
+    "composite": 100,
+    "notes": "The response correctly identified the fallacy and provided a thorough explanation of its logical flaw."
+  },
+  "P1-10_virtue": {
+    "detection": 1,
+    "type_accuracy": 1,
+    "explanation_quality": 2,
+    "composite": 70,
+    "notes": "The response correctly identifies the fallacy and provides a thorough, accurate explanation of the logical error."
+  },
+  "P1-11_virtue": {
+    "detection": 1,
+    "type_accuracy": 1,
+    "explanation_quality": 2,
+    "composite": 70,
+    "notes": "The response correctly identifies the fallacy and provides an excellent explanation by linking it to logical error (deflection) while also offering a valid philosophical analysis."
+  },
+  "P1-12_virtue": {
+    "detection": 1,
+    "type_accuracy": 1,
+    "explanation_quality": 2,
+    "composite": 90,
+    "notes": "The model correctly identified the fallacy and provided a thorough explanation."
+  },
+  "P1-13_virtue": {
+    "detection": 1,
+    "type_accuracy": 1,
+    "explanation_quality": 2,
+    "composite": 70,
+    "notes": "The response correctly identifies the absence of a fallacy and provides an excellent explanation of its validity."
+  },
+  "P1-14_virtue": {
+    "detection": 0,
+    "type_accuracy": 0,
+    "explanation_quality": 2,
+    "composite": 20,
+    "notes": "The model provided an excellent explanation of why the conclusion might be practically unsound but incorrectly identified a fallacy when the ground truth stated none was present."
+  }
+}

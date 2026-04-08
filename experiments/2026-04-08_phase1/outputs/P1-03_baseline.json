@@ -1,0 +1,9 @@
+{
+  "prompt_id": "P1-03",
+  "condition": "baseline",
+  "fallacy": "False Dilemma",
+  "has_fallacy": true,
+  "task_text": "Read the following argument. State whether it contains a logical fallacy. If yes, name the fallacy and explain why the argument commits it. If no fallacy is present, explain why the argument is valid.\n\n\"You're either with us on this policy, or you're against the safety of this community. There's no middle ground.\"",
+  "response": "Yes, this argument contains a logical fallacy.\n\n### Fallacy Name: False Dilemma (or False Dichotomy)\n\n### Explanation:\n\nA **False Dilemma** is a fallacy that occurs when an argument presents only two choices or outcomes as if they are the only possibilities, when in reality, there are many other alternatives available. It forces a choice between two extremes (\"black or white\") while ignoring the spectrum of possibilities and nuances in between.\n\n**Why the Argument Commits It:**\n\nThe statement \"You're either with us on this policy, or you're against the safety of this community. There's no middle ground\" commits this fallacy by:\n\n1. **Limiting Options:** It artificially restricts the opponent to two extreme positions: 1) Full support for the policy, or 2) Being responsible for the community's danger.\n2. **Ignoring Nuance:** It fails to account for any possibility of moderation, partial agreement (e.g., \"I agree with this policy but believe it needs X modification\"), alternative solutions entirely unrelated to the current debate, or disagreement that is based on complex reasoning rather than simple opposition.\n\nBy presenting only these two choices, the argument attempts to bypass actual debate and force compliance by making any position other than full support seem inherently dangerous or irresponsible.",
+  "timestamp": "2026-04-08T16:40:24.231387"
+}

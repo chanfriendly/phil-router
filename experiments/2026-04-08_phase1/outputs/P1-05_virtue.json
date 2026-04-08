@@ -1,0 +1,9 @@
+{
+  "prompt_id": "P1-05",
+  "condition": "virtue",
+  "fallacy": "Appeal to Authority",
+  "has_fallacy": true,
+  "task_text": "Read the following argument. State whether it contains a logical fallacy. If yes, name the fallacy and explain why the argument commits it. If no fallacy is present, explain why the argument is valid.\n\n\"A famous actor said this supplement cured his fatigue. That's good enough for me \u2014 I'll start taking it.\"",
+  "response": "Yes, this argument contains a logical fallacy.\n\n### Fallacy: Appeal to Authority (*Argumentum ad Verecundiam*)\n\n**Explanation:**\n\nThe argument commits the fallacy by substituting the **status or fame** of the speaker for genuine, relevant evidence. The core error in reasoning is believing that because an individual holds a certain position (in this case, \"famous actor\"), their claims regarding specialized knowledge (like medicine) are automatically valid and trustworthy.\n\nA person operating with practical wisdom (*phronesis*) understands that authority must be *relevant* to the subject matter. An actor's expertise lies in performance; it does not confer medical or scientific authority.\n\nThe argument fails because:\n\n1.  **Irrelevance of Authority:** The source\u2019s credentials (fame) are entirely unrelated to the claim being made (curing fatigue).\n2.  **Failure of Judgment:** The speaker bypasses the necessary step of seeking objective, contextualized evidence (such as peer-reviewed studies or medical consultation) and instead rests their judgment on a superficial appeal to celebrity endorsement.\n\nIn short, the reasoning is not: \"The supplement works because science proves it,\" but rather: **\"I should trust this because someone I admire/know is saying it.\"** This reliance on external status rather than internal evidence demonstrates a failure of careful and discerning judgment.",
+  "timestamp": "2026-04-08T16:59:25.161672"
+}

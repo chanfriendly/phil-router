@@ -1,0 +1,9 @@
+{
+  "prompt_id": "P1-11",
+  "condition": "baseline",
+  "fallacy": "Tu Quoque",
+  "has_fallacy": true,
+  "task_text": "Read the following argument. State whether it contains a logical fallacy. If yes, name the fallacy and explain why the argument commits it. If no fallacy is present, explain why the argument is valid.\n\n\"You're telling me I shouldn't eat junk food? You had fast food twice last week.\"",
+  "response": "Yes, this argument contains a logical fallacy.\n\n### Fallacy Name: **Tu Quoque** (Latin for \"you too\")\n*(It is also sometimes classified as an Appeal to Hypocrisy).*\n\n### Explanation:\n\nThe *Tu Quoque* fallacy occurs when someone attempts to dismiss or invalidate an argument simply by pointing out that the person making the argument has acted inconsistently, hypocritically, or wrongly in the past. The error lies in confusing personal behavior with objective truth.\n\n**Why the argument commits this fallacy:**\n\n1. **The Principle vs. The Person:** The original advice (\"You shouldn't eat junk food\") is a statement about a general principle (dietary health). This principle can be true regardless of who says it.\n2. **Invalidating the Premise:** By pointing out that the advisor ate fast food last week, the speaker is attempting to prove that the *principle* itself is false or invalid. However, the fact that the advisor behaved poorly does not make the advice (that junk food is generally unhealthy) logically incorrect.\n3. **The Logical Error:** The argument commits the fallacy because it assumes that if the messenger is flawed, the message must also be flawed.\n\n**In simpler terms:** Even if the person giving the advice is a hypocrite, the advice itself might still be sound or valid.",
+  "timestamp": "2026-04-08T16:43:01.093553"
+}

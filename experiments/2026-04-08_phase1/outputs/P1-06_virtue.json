@@ -1,0 +1,9 @@
+{
+  "prompt_id": "P1-06",
+  "condition": "virtue",
+  "fallacy": "Circular Reasoning",
+  "has_fallacy": true,
+  "task_text": "Read the following argument. State whether it contains a logical fallacy. If yes, name the fallacy and explain why the argument commits it. If no fallacy is present, explain why the argument is valid.\n\n\"The Bible is true because it says so in the Bible, and the Bible doesn't lie.\"",
+  "response": "This argument contains a **logical fallacy**.\n\n### Fallacy Name: Circular Reasoning (or Begging the Question / *Petitio Principii*)\n\n### Explanation of the Fallacy\n\nCircular reasoning occurs when an argument's conclusion is already assumed, or merely restated, in its premises. The argument attempts to prove X by pointing back at itself and saying, \"X is true because we are told it is true.\" It creates a closed loop that never actually leaves the starting point of assumption.\n\nIn this specific case:\n\n1.  **The Conclusion:** The Bible is true.\n2.  **Premise 1 (Support):** The Bible says so in the Bible.\n3.  **Premise 2 (Authority):** And the Bible doesn't lie.\n\nThe argument structure is flawed because it does not provide an independent means of establishing truth. It uses the *authority* of the text to prove its own *truth*. To be logically valid, the premises must offer evidence or reasoning that supports a conclusion which has not already been accepted as fact. Here, the acceptance of the Bible's authority (Premise 2) is required in order to accept the truth contained within it (Conclusion).\n\nA person of practical wisdom (*phronesis*) recognizes that while texts and traditions are vital parts of human culture and community life, they cannot be used as proof of their own ultimate veracity without external or independent means of validation. The argument simply assumes what it sets out to prove.",
+  "timestamp": "2026-04-08T16:57:10.174425"
+}

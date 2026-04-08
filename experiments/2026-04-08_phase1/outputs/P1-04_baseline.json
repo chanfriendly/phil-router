@@ -1,0 +1,9 @@
+{
+  "prompt_id": "P1-04",
+  "condition": "baseline",
+  "fallacy": "Slippery Slope",
+  "has_fallacy": true,
+  "task_text": "Read the following argument. State whether it contains a logical fallacy. If yes, name the fallacy and explain why the argument commits it. If no fallacy is present, explain why the argument is valid.\n\n\"If we allow students to redo one failed exam, next they'll want to redo every assignment, and eventually grades will become meaningless.\"",
+  "response": "Yes, this argument contains a logical fallacy.\n\n### Fallacy Name: Slippery Slope\n\n### Explanation:\n\nA **Slippery Slope** fallacy argues that a small, initial action or decision will inevitably lead to a chain of related, increasingly dire consequences, without providing sufficient evidence for the inevitability of that progression. The argument assumes that there is no point at which the chain can be stopped.\n\nIn this case, the arguer takes the initial step (allowing students to redo one failed exam) and extrapolates it through an exaggerated series of steps:\n\n1. **Step 1:** Redoing one exam.\n2. **Assumed Inevitable Step 2:** Students will demand redos for *every* assignment.\n3. **Ultimate Conclusion:** Grades will become meaningless.\n\nThe fallacy lies in the assumption that these subsequent steps are guaranteed and unavoidable. The argument fails to acknowledge any intervening policies, administrative controls, or educational standards that could be put in place to limit the scope of the initial policy change. It treats a possible first step as an absolute guarantee leading to an extreme, undesirable outcome.",
+  "timestamp": "2026-04-08T16:41:15.108713"
+}

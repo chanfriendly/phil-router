@@ -1,0 +1,9 @@
+{
+  "prompt_id": "P1-07",
+  "condition": "baseline",
+  "fallacy": "Hasty Generalization",
+  "has_fallacy": true,
+  "task_text": "Read the following argument. State whether it contains a logical fallacy. If yes, name the fallacy and explain why the argument commits it. If no fallacy is present, explain why the argument is valid.\n\n\"I've met three people from that city and they were all rude. People from there are just unfriendly.\"",
+  "response": "**Does it contain a logical fallacy?** Yes.\n\n**Fallacy Name:** Hasty Generalization (or Fallacy of Anecdotal Evidence)\n\n**Explanation:**\nA hasty generalization occurs when one draws a broad conclusion about an entire population based on insufficient evidence or too small a sample size.\n\nIn this argument, the speaker takes a very limited sample\u2014three individuals\u2014and uses their negative experience to conclude that *all* people from that city share the same inherent trait (unfriendliness). The behavior of three people is anecdotal and does not provide enough data to characterize millions of people who make up an entire population.\n\nThe argument fails because it assumes that individual, isolated experiences are representative of a whole group, ignoring the possibility that the vast majority of people from that city may be friendly.",
+  "timestamp": "2026-04-08T16:38:15.425301"
+}

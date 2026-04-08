@@ -1,0 +1,9 @@
+{
+  "prompt_id": "P1-02",
+  "condition": "baseline",
+  "fallacy": "Straw Man",
+  "has_fallacy": true,
+  "task_text": "Read the following argument. State whether it contains a logical fallacy. If yes, name the fallacy and explain why the argument commits it. If no fallacy is present, explain why the argument is valid.\n\n\"My opponent says we should reduce military spending. So apparently she wants to leave our country completely defenseless and at the mercy of our enemies.\"",
+  "response": "The argument **does contain a logical fallacy**.\n\n### Fallacy Name: Straw Man Fallacy\n\n### Explanation\n\nThe Straw Man Fallacy occurs when someone misrepresents an opponent's actual position or argument, creating a weaker, distorted version of that argument (the \"straw man\"). The speaker then attacks this fabricated, easier-to-defeat position instead of addressing the opponent's real claims.\n\n**How the Argument Commits It:**\n\n1. **The Opponent\u2019s Actual Claim (A):** To reduce military spending. This is a moderate policy suggestion that implies *cutting* resources but does not necessarily mean *abandoning* them entirely.\n2. **The Speaker\u2019s Misrepresentation (B - The Straw Man):** \"She wants to leave our country completely defenseless and at the mercy of our enemies.\"\n\nThe speaker takes the opponent's reasonable proposal (reducing spending) and grossly exaggerates it into an extreme, unacceptable position (total defenselessness). No one arguing for reduced spending actually advocates for complete abandonment of national defense. By attacking this fabricated, extreme version of the argument\u2014the \"straw man\"\u2014the speaker avoids having to debate the actual merits or consequences of simply reducing military funding.",
+  "timestamp": "2026-04-08T16:42:33.591633"
+}

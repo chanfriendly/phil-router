@@ -32,17 +32,34 @@
 
 ## Experiment Results
 
-*Accuracy/quality tables will be recorded here after each experiment batch.*
+### Phase 1 — Logical Fallacy Identification (2026-04-08)
 
-| Date | Task Category | Framework | Routing Method | Coherence | Fitness | Completeness | vs. Baseline |
-|---|---|---|---|---|---|---|---|
-| — | — | — | — | — | — | — | — |
+**Model:** google/gemma-4-e4b  **Prompts:** 14 (12 fallacy types + 2 valid-argument controls)
+
+| Condition | Mean Score (AI, corrected) | Pass Rate | False Positives | Human Score |
+|---|---|---|---|---|
+| Baseline (no routing) | **100.0** | 100% | 0 | pending |
+| Analytic Philosophy (matched) | **92.9** | 93% | P1-13 | pending |
+| Virtue Ethics (mismatched) | **94.3** | 93% | P1-14 | pending |
+
+**AI judge note:** Judge (same model as experiment) miscalculated composites — reported 70s/90s where formula gives 100. Corrected composites computed from sub-scores (detection×40 + type×40 + explanation×10). Sub-scores appear reliable; composites were not.
+
+**H1 (Analytic > Virtue):** Not confirmed — Virtue edged Analytic 94.3 vs 92.9  
+**H2 (Analytic > Baseline):** Not confirmed — Baseline was perfect; routing lowered performance  
+**H3 (Any routing > Baseline):** Not confirmed — mean routed 93.6 vs baseline 100.0  
+
+**Key finding:** Routed models introduced false positives on valid-argument control prompts (P1-13 analytic, P1-14 virtue). Analytic framing appears to bias toward problem-seeking. Analytic also misnamed P1-02 (called Slippery Slope instead of Straw Man). Human scoring required before drawing conclusions.
 
 ---
 
 ## Failed Approaches
 
 *Document what was tried, what outcome occurred, and why it was abandoned. This section is critical.*
+
+| Date | Approach | What Happened | Why Abandoned |
+|---|---|---|---|
+| 2026-04-08 | AI-as-judge composite self-calculation | Judge (Gemma 4B) reported composites inconsistent with its own sub-scores — gave 70/90 where formula gives 100 | Not abandoned — sub-scores are reliable; composites now recomputed externally. Lesson: never trust LLM-computed arithmetic; always verify from sub-scores. |
+| 2026-04-08 | Qwen 3.5 9B as primary model | LM Studio blocked load — 8.14 GB exceeds memory guardrail | Switched to Gemma 4 4B. Flag as limitation: smaller model may show weaker or different framework effects. |
 
 | Date | Approach | What Happened | Why Abandoned |
 |---|---|---|---|
@@ -133,5 +150,5 @@
 
 ### Session 006 — 2026-04-08
 **Goal:** Finalize P2-05 and launch Phase 1  
-**Outcome:** P2-05 (Reparative Justice / bridge scenario) finalized — 200 displaced, 500 harmed, hospital option serving 15,000. Design note added citing Robert Moses analogue. Added to phase2_prompts.json and categories.md. Phase 1 experiment launched.  
-**Next session should start with:** Review results in `experiments/YYYY-MM-DD_phase1/results.md`; complete human scoring in eval_human.md; record kappa and aggregate scores in CHANGELOG.
+**Outcome:** P2-05 finalized. Phase 1 run complete — 42/42 API calls succeeded. Baseline=100.0, Analytic=92.9, Virtue=94.3 (corrected from AI judge sub-scores). H1/H2/H3 tentatively not confirmed. Key finding: routed models produced false positives on valid-argument controls. AI judge composite arithmetic unreliable — recomputed externally.  
+**Next session should start with:** Human scoring — open `experiments/2026-04-08_phase1/eval_human.md` and score all 42 responses independently before looking at `eval_ai.json`. Then fill human column in `results.md` and calculate inter-rater kappa.

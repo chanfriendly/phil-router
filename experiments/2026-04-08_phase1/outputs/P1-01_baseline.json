@@ -1,0 +1,9 @@
+{
+  "prompt_id": "P1-01",
+  "condition": "baseline",
+  "fallacy": "Ad Hominem",
+  "has_fallacy": true,
+  "task_text": "Read the following argument. State whether it contains a logical fallacy. If yes, name the fallacy and explain why the argument commits it. If no fallacy is present, explain why the argument is valid.\n\n\"We shouldn't listen to Dr. Chen's research on climate change \u2014 she drives an SUV. Clearly she doesn't even believe what she's saying.\"",
+  "response": "Yes, the argument contains a logical fallacy.\n\n**Fallacy Name:** Ad Hominem (specifically, **Ad Hominem Circumstantial** or Appeal to Hypocrisy).\n\n**Explanation:**\n\nThe **Ad Hominem** fallacy occurs when an arguer attempts to discredit a person's claim by attacking the person themselves, rather than addressing the merits of the argument or research presented.\n\nIn this case, the speaker does not challenge Dr. Chen\u2019s scientific data, methodology, or conclusions regarding climate change. Instead, they focus on her personal lifestyle choice (driving an SUV). By pointing out that she drives an SUV, the speaker attempts to imply that she is a hypocrite and therefore incapable of believing or understanding the research she presents.\n\nThe fallacy commits because:\n\n1. **Irrelevance:** Dr. Chen's personal actions, while they may be ethically debatable, have no logical bearing on the scientific validity of her professional research. The truth or falsehood of climate science must be determined by evidence and peer review, not by the perceived hypocrisy of the researcher.\n2. **Shift in Focus:** The argument shifts the focus from the complex topic (climate change) to a personal flaw (her vehicle choice), making the conclusion invalid regardless of how much she may personally believe in her own research.",
+  "timestamp": "2026-04-08T16:42:07.757118"
+}

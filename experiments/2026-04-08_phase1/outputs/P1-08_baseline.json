@@ -1,0 +1,9 @@
+{
+  "prompt_id": "P1-08",
+  "condition": "baseline",
+  "fallacy": "Post Hoc",
+  "has_fallacy": true,
+  "task_text": "Read the following argument. State whether it contains a logical fallacy. If yes, name the fallacy and explain why the argument commits it. If no fallacy is present, explain why the argument is valid.\n\n\"I started wearing my lucky bracelet, and my back pain went away the next week. The bracelet must be healing me.\"",
+  "response": "**Logical Fallacy Present:** Yes\n\n**Name of Fallacy:** Post hoc ergo propter hoc (Latin for \"after this, therefore because of this\").\n\n**Explanation:**\nThe argument commits the *Post hoc ergo propter hoc* fallacy because it assumes that merely because one event happened after another, the first event must have caused the second. This fallacy confuses **correlation** (two things happening together or sequentially) with **causation** (one thing directly causing the other).\n\nIn this case:\n1. Event A (Wearing the bracelet) occurred.\n2. Event B (Back pain disappearing) occurred *after* Event A.\n3. The conclusion incorrectly asserts that Event A caused Event B.\n\nThe argument ignores numerous alternative explanations for the back pain relief, such as natural healing, changes in diet or exercise, coincidence, or other medical factors entirely unrelated to the bracelet. While the events are temporally related (A happened before B), there is no logical guarantee of a causal link.",
+  "timestamp": "2026-04-08T16:37:56.453445"
+}

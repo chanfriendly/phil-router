@@ -1,0 +1,9 @@
+{
+  "prompt_id": "P1-12",
+  "condition": "baseline",
+  "fallacy": "Bandwagon",
+  "has_fallacy": true,
+  "task_text": "Read the following argument. State whether it contains a logical fallacy. If yes, name the fallacy and explain why the argument commits it. If no fallacy is present, explain why the argument is valid.\n\n\"Everyone is switching to this new platform. You should too \u2014 it's obviously the right move.\"",
+  "response": "Yes, this argument contains a logical fallacy.\n\n### Fallacy Name\n**Bandwagon Fallacy** (also known as *Argumentum ad populum*, or Appeal to Popularity).\n\n### Explanation\nThe Bandwagon Fallacy occurs when an arguer attempts to prove that a claim is true or desirable simply because many people believe it or are doing it. The premise of the argument (\"Everyone is switching...\") is used to establish the truth or correctness of the conclusion (\"You should too...\").\n\n**Why the Argument Commits It:**\nThe argument commits this fallacy by equating popularity with objective rightness. While the fact that \"everyone\" is adopting a platform suggests social momentum, it does not logically prove that the platform is superior, best suited for the individual, or objectively correct.\n\nTo be valid, an argument must provide evidence (such as technical superiority, cost analysis, or specific benefits) to support its claim. Instead, this argument relies solely on **social proof**\u2014the idea that if a large group of people accepts something, it must therefore be good. This is a flawed logical leap; popularity does not guarantee quality or suitability.",
+  "timestamp": "2026-04-08T16:39:30.171588"
+}

@@ -1,0 +1,9 @@
+{
+  "prompt_id": "P1-10",
+  "condition": "baseline",
+  "fallacy": "Red Herring",
+  "has_fallacy": true,
+  "task_text": "Read the following argument. State whether it contains a logical fallacy. If yes, name the fallacy and explain why the argument commits it. If no fallacy is present, explain why the argument is valid.\n\n\"You're criticizing my business practices, but have you seen how much I donate to charity? I give thousands every year.\"",
+  "response": "The argument **contains a logical fallacy**.\n\n### Fallacy Name: Red Herring\n\n### Explanation:\n\nA Red Herring is an appeal to an irrelevant topic, introduced specifically to distract from the original issue or line of questioning. The speaker attempts to shift the focus away from the criticism of their business practices by introducing the unrelated fact that they donate money to charity.\n\n**Why it commits the fallacy:**\n\n1.  **The Original Issue (A):** The validity and ethics of the speaker's business practices.\n2.  **The Distraction (B):** The amount of charitable donations.\n\nWhile donating thousands of dollars is a commendable act, there is no logical connection between giving money to charity and whether or not the specific business practices being criticized are ethical, legal, or sound. By bringing up their philanthropy, the speaker attempts to make the listener feel guilty for criticizing them on Topic A, thereby dismissing the criticism without having to address its merits. The charitable donations are a distraction that has no bearing on the validity of the initial critique.",
+  "timestamp": "2026-04-08T16:40:49.572778"
+}

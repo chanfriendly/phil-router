@@ -1,0 +1,9 @@
+{
+  "prompt_id": "P1-05",
+  "condition": "baseline",
+  "fallacy": "Appeal to Authority",
+  "has_fallacy": true,
+  "task_text": "Read the following argument. State whether it contains a logical fallacy. If yes, name the fallacy and explain why the argument commits it. If no fallacy is present, explain why the argument is valid.\n\n\"A famous actor said this supplement cured his fatigue. That's good enough for me \u2014 I'll start taking it.\"",
+  "response": "Yes, this argument contains a logical fallacy.\n\n### Fallacy Name: Appeal to Authority (*Argumentum ad Verecundiam*)\n\n**Explanation:**\n\nThe fallacy of Appeal to Authority occurs when someone argues that a claim must be true simply because an authority figure or famous person endorses it, even if that person is not an expert in the relevant field.\n\nIn this argument, the speaker uses the **fame and perceived success** of the actor as proof of the supplement's efficacy. The actor is an authority on acting, but his status does not grant him any expertise in medicine, nutritional science, or pharmacology.\n\nThe argument commits the fallacy because:\n\n1.  **Irrelevant Authority:** The source of the claim (the famous actor) has no verifiable expertise regarding the medical claims being made.\n2.  **Substitution of Evidence:** The speaker substitutes a celebrity endorsement for actual scientific evidence, clinical data, or expert medical opinion.\n\nThe argument structure is flawed because it assumes that authority in one field (acting) translates into infallible knowledge and proof in an entirely different, specialized field (medicine).",
+  "timestamp": "2026-04-08T16:41:38.645214"
+}
