@@ -34,7 +34,7 @@
     "category": "reparative_justice",
     "predicted_best_framework": "dialectical",
     "predicted_worst_framework": "utilitarian",
-    "status": "PLACEHOLDER — awaiting scenario from owner",
-    "text": null
+    "design_note": "No single ground truth — scored on rubric (coherence, fitness, fidelity), not accuracy. Tests whether frameworks produce internally consistent and distinct reasoning. Utilitarian case for hospital is genuine (15,000 beneficiaries); deontological case for rehoming is grounded in causal obligation (city caused the harm). Real-world analogue: Robert Moses highway construction, which disproportionately displaced Black and Latino neighborhoods in NYC.",
+    "text": "A city completes construction of a major bridge that significantly reduces commute times for a large portion of its population. During and after construction, a lower-income neighborhood adjacent to the bridge site experienced forced displacement of 200 residents and ongoing exposure to elevated noise and air pollution for the 500 who remained. Studies now confirm measurable health impacts in the remaining residents.\n\nThe city has a remaining infrastructure budget — equal in size to what it would cost to either (A) fully rehome and compensate the displaced residents and fund remediation for those who stayed, or (B) upgrade a city hospital that serves the broader population, projected to improve health outcomes for 15,000 residents annually.\n\nBoth options are legitimate uses of the budget. Only one can be chosen. What should the city do, and what principles should guide that decision?"
   }
 ]

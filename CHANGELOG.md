@@ -86,8 +86,8 @@
 
 ## Next Steps
 
-1. **Owner:** supply concrete scenario for P2-05 (Reparative Justice)
-2. **Launch:** `python3 scripts/run_phase1.py` — runs all 42 calls + AI judge automatically
+1. **In progress:** Phase 1 experiment run
+2. **After run:** open `experiments/YYYY-MM-DD_phase1/eval_human.md` and score independently
 3. **Score:** open `experiments/YYYY-MM-DD_phase1/eval_human.md` and score responses independently (before looking at AI scores)
 4. Fill in human column in `results.md`; calculate inter-rater kappa; document in CHANGELOG
 5. Record aggregate results in experiment results table above
@@ -129,5 +129,9 @@
 
 ### Session 005 — 2026-04-08
 **Goal:** Phase 1 experiment runner script  
-**Outcome:** Completed. `scripts/run_phase1.py` written — 42 experiment calls (14 prompts × 3 conditions) + 42 AI judge calls, with randomized prompt order (seed=42). Generates config.md, raw outputs/, eval_ai.json, eval_human.md (human scoring template), and results.md. Dry run passed. `tasks/phase2_prompts.json` created with P2-05 as placeholder. **Ready to launch** — pending owner supplying P2-05 scenario.  
-**Next session should start with:** `python3 scripts/run_phase1.py` — then open eval_human.md and score independently before comparing with AI scores.
+**Outcome:** Completed. `scripts/run_phase1.py` written — 42 experiment calls (14 prompts × 3 conditions) + 42 AI judge calls, with randomized prompt order (seed=42). Generates config.md, raw outputs/, eval_ai.json, eval_human.md (human scoring template), and results.md. Dry run passed. `tasks/phase2_prompts.json` created with P2-05 as placeholder.
+
+### Session 006 — 2026-04-08
+**Goal:** Finalize P2-05 and launch Phase 1  
+**Outcome:** P2-05 (Reparative Justice / bridge scenario) finalized — 200 displaced, 500 harmed, hospital option serving 15,000. Design note added citing Robert Moses analogue. Added to phase2_prompts.json and categories.md. Phase 1 experiment launched.  
+**Next session should start with:** Review results in `experiments/YYYY-MM-DD_phase1/results.md`; complete human scoring in eval_human.md; record kappa and aggregate scores in CHANGELOG.
